@@ -5,7 +5,7 @@ Xojo Extends to avoid flickering when showing a web dialog by displaying a progr
 
 1. After download and open the project, **copy the webextensions module into your projects**.
 
-![](https://github.com/davidclothier/preparingreadme/blob/main/extensions-pic.png)
+![](https://github.com/davidclothier/preparingreadme/blob/main/Images/extensions-pic.png)
 
 2. **In the *Opening* event** of the WebDialog, the first thing you have to do before configuring your controls is to call the method ``ShowProgressWheel(sizePercentageScale)``. ``sizePercentageScale`` must be an integer value between 1 and 100.
 3. **In the *Shown* event** of the same WebDialog, call the ``HideProgressWheel`` method.
@@ -13,7 +13,7 @@ Xojo Extends to avoid flickering when showing a web dialog by displaying a progr
 That's it!
 
 # Result
-![](https://github.com/davidclothier/preparingreadme/blob/main/example-dialog.gif)
+![](https://github.com/davidclothier/preparingreadme/blob/main/Images/example-dialog.gif)
 
 # Next features to be improved
 
